@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Problem View</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="cms-page">
+  <h1>🧠 Problem Title</h1>
+
+  <div class="problem-statement">
+    <p>
+      Write a program that takes two integers and prints their sum.
+    </p>
+    <p><b>Input:</b> Two integers A and B</p>
+    <p><b>Output:</b> Their sum A + B</p>
+  </div>
+
+  <h2>📤 Submit Your Solution</h2>
+  <form id="submit-form" enctype="multipart/form-data" method="POST" action="submit.php">
+    <label>Select Language:</label>
+    <select name="language">
+      <option value="cpp">C++</option>
+      <option value="py">Python</option>
+    </select>
+
+    <label>Upload Your Code:</label>
+    <input type="file" name="solution_file" required>
+
+    <button type="submit">🚀 Submit</button>
+  </form>
+</body>
+</html>
